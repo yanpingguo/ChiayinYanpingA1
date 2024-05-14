@@ -77,10 +77,7 @@ namespace ChiayinYanpingA1
                     {
                         result = x / y;
                     }
-                    else
-                    {
-                        result = 0;
-                    }
+
                     break;
             }
             caTextBox.Text = result.ToString();

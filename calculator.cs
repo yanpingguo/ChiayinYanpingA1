@@ -50,7 +50,7 @@ namespace ChiayinYanpingA1
 
         private void ButtonOpenration_Click(object sender, EventArgs e)
         {
-            x = Double.Parse(caTextBox.Text);
+            x = double.Parse(caTextBox.Text);
             pendingOperation = ((Button)sender).Text;
             LabelDisplay.Text = x + pendingOperation;
             caTextBox.Clear();
@@ -77,10 +77,7 @@ namespace ChiayinYanpingA1
                     {
                         result = x / y;
                     }
-                    else
-                    {
-                        result = 0;
-                    }
+                 
                     break;
             }
             caTextBox.Text = result.ToString();
